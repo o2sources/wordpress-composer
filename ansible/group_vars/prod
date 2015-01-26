@@ -1,0 +1,16 @@
+---
+# Project information
+project_name: ""
+project_directory: ""
+
+# Root password for mysql
+mysql_root_password: ""
+
+# Database connexion
+db_name: ""
+db_user: ""
+db_password: ""
+db_host: "localhost"
+
+# Wordpress debugging mode
+wp_debug: "false"

@@ -1,0 +1,19 @@
+---
+- name: Production only tasks
+  hosts: prod
+  roles: ~
+
+- name: Vagrant only tasks
+  hosts: vagrant
+  sudo: yes
+  roles:
+    - vagrant
+    - sources
+    - git
+    - ohmyzsh
+    - postfix
+    - dotdeb
+    - composer
+    - mariadb
+    - nginx
+    - wordpress
