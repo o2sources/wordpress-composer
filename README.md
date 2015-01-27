@@ -43,8 +43,6 @@ git remote rm origin
 Now custom the `:name` var in `Vagrantfile` at line 10 with your project name.
 Ok, now run `vagrant up`, wait and have fun!
 
-Then run `vagrant ssh` and go to `/var/www/wordpress`, run `composer install`.
-
 Install wordpress theme or plugin
 ---
 
@@ -55,7 +53,7 @@ or your theme.
 Don't worry, this website contains all public wordpress plugin and themes.
 
 Edit your `composer.json`, add your new dependency from wppackagist and run 
-`composer update`.
+`composer update` from your VirtualMachine (run `vagrant ssh`).
 
 __TIP:__ After a `composer update`, create a single commit with your 
 `composer.json` and your `composer.lock` for avoid conflicts.
