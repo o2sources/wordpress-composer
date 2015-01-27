@@ -14,3 +14,7 @@
   template: src=wp-config.php.j2 dest={{ project_directory }}/wp-config.php
   tags: install
   run_once: true
+
+- name: Install vendors, themes and plugin with composer
+  composer: command=install working_dir={{ project_directory}}
+  tags: install
