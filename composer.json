@@ -1,0 +1,25 @@
+{
+  "name": "o2sources/wordpress",
+  "description": "Default project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre 'pocky' BALMES",
+      "email": "alexandre@lablackroom.com",
+      "homepage": "http://www.lablackroom.com"
+    }
+  ],
+  "repositories":[
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "php": ">= 5.4.0",
+    "wpackagist-plugin/akismet":"dev-trunk"
+  }
+}
