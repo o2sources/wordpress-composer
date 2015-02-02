@@ -1,7 +1,9 @@
 ---
-- name: Production only tasks
-  hosts: prod
-  roles: ~
+- name: All hosts
+  hosts: all
+  pre_tasks:
+    - name: Update Apt
+      apt: update_cache=yes cache_valid_time=3600
 
 - name: Vagrant only tasks
   hosts: vagrant
