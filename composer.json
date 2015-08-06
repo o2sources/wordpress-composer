@@ -20,6 +20,9 @@
   },
   "require": {
     "php": ">= 5.4.0",
-    "wpackagist-plugin/akismet":"dev-trunk"
+    "wpackagist-plugin/akismet": "@stable",
+    "wpackagist-theme/twentyfifteen": "@stable",
+    "wpackagist-theme/twentyfourteen": "@stable",
+    "wpackagist-theme/twentythirteen": "@stable"
   }
 }
